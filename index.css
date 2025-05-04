@@ -1,0 +1,189 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  list-style: none;
+  font: 'outfit' sans-serif;
+}
+footer {
+  background: url('leaf-pattern.png') repeat;
+}
+
+h1{
+  margin: 10px;
+  padding: 12px%;
+}
+
+img {
+  align-items: btn;
+  border: 3px ;
+  border-radius: 25px;
+  
+}
+
+.papersheet{
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  padding: 10%;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border-radius: 80px;
+}
+
+nav{
+  display: fex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkviolet;
+  height: 90px;
+  width: 100%;
+  font-family: Arial;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid darkviolet;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px 8px darkviolet;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items:  center;
+  width: auto;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 55px;
+  box-shadow: 1px 1px 1px 1px darkviolet;
+  
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkviolet;
+  height: 80px;
+  width: 100%;
+}
+
+footer{
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+}
+
+form li{
+  margin: 10;
+  padding: 10px;
+}
+
+h2{
+  font-weight: bolder;
+  color: red;
+}
+
+/* Add to your CSS */
+.eco-projects {
+  background-color: #f0f8f0; /* Light green background */
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+.eco-projects h2 {
+  color: #2e8b57; /* Earthy green */
+}
+.project-card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+.dark-mode .navbar {
+  background-color: #1e1e1e !important;
+}
+/* Add more dark-mode overrides as needed */
+
+.sustainability-badge {
+  background: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+:root {
+  --primary: #2e8b57;       /* Earthy green */
+  --secondary: #556b2f;     /* Olive green */
+  --accent: #8fbc8f;        /* Light sage */
+  --text: #333;
+  --background: #f5f5f5;
+}
+
+/* Update existing elements to use these vars */
+.navbar {
+  background-color: var(--primary) !important;
+}
+.btn {
+  background-color: var(--secondary);
+}
+
+.about-sustainability {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #f8fff8;
+  padding: 2rem;
+}
+.about-sustainability img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.skill-bar {
+  background: #e0e0e0;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+.skill-level {
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 0.8rem;
+}
